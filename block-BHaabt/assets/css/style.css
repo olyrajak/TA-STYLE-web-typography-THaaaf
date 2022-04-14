@@ -1,0 +1,303 @@
+@font-face {
+    font-family: "DMSerifDisplay-Regular";
+    src: url("assets/font/DMSerifDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: "DMSerifDisplay-Italic";
+    src: url("assets/font/DMSerifDisplay-Italic.ttf");
+}
+
+@font-face {
+    font-family: "Karla-ExtraLightItalic";
+    src: url("assets/font/Karla-ExtraLightItalic.ttf");
+}
+
+@font-face {
+    font-family: "Karla-MediumItalic";
+    src: url("fassets/ont/Karla-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: "Karla-SemiBold";
+    src: url("assets/font/Karla-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Karla-variable";
+    src: url("assets/font/Karla-VariableFont_wght.ttf");
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    /* margin-top: 20px */
+    /* border: 2px solid black; */
+}
+
+.nav {
+    margin-top: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.hr {
+    margin-left: 300px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    width: 15%;
+    background-color: white;
+    height: 1%;
+}
+
+.hr-different {
+    margin-left: 300px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    width: 15%;
+    background-color: rgb(203, 21, 21);
+    height: 1%;
+}
+
+.insure {
+    /* display: flex; */
+    height: 40vh;
+    margin-top: 100px;
+}
+
+.insure-text {
+    position: absolute;
+    right: 280px;
+    width: 40%;
+    top: 600px;
+    font-family: "Karla-MediumItalic";
+}
+
+.about-insure-img {
+    height: 400px;
+    width: 30%;
+    margin-left: 200px;
+}
+
+.nav-link {
+    margin-left: 40px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.right-nav-text {
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.view-plans {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.viewplans {
+    padding: 10px;
+    background-color: #2d243e;
+    border-radius: 5px;
+    border: 2px solid white;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.blue-box {
+    background-color: #2d243e;
+    height: 300px;
+    width: auto;
+    padding: 58px;
+}
+
+.top-float-image {
+    position: absolute;
+    top: 120px;
+    right: 180px;
+    height: 440px;
+    width: 370px;
+}
+
+.blue-box-head {
+    color: white;
+    font-size: 40px;
+    margin-left: 300px;
+    margin-bottom: 25px;
+    font-family: "DMSerifDisplay-Regular";
+    /* margin-top: 100px; */
+}
+
+.blue-box-text {
+    color: white;
+    line-height: 35px;
+    font-size: 20px;
+    margin-left: 300px;
+    text-align: left;
+    width: 40%;
+}
+
+.box-blue-2nd-button {
+    height: 40px;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 200px;
+    /* padding: 10px; */
+    height: 19%;
+    width: 12%;
+    background-color: #2d243e;
+    border: 1px solid grey;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.about-insure-head {
+    font-size: 36px;
+    line-height: 20px;
+    margin-bottom: 18px;
+    font-family: "DMSerifDisplay-Italic";
+}
+
+.about-different-head {
+    font-size: 36px;
+    line-height: 20px;
+    margin-bottom: 25px;
+    margin-left: 38px;
+    font-family: "DMSerifDisplay-Italic";
+}
+
+.we-are-different {
+    margin-top: 100px;
+}
+
+.we-are-differenr-hr {
+    margin-left: 46px;
+    margin-bottom: 26px;
+    width: 10%;
+    background-color: rgb(99, 97, 97);
+    /* height: 1% */
+}
+
+.about-insure-text {
+    line-height: 30px;
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 18px;
+    font-family: "Karla-ExtraLightItalic";
+    font-weight: bold;
+}
+
+.knowmore {
+    padding: 5px;
+    height: 10%;
+    width: 20%;
+    background-color: white;
+    border: 1px solid grey;
+    font-size: 15px;
+    color: grey;
+    font-weight: bold;
+}
+
+.different {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 46px;
+}
+
+.different-icon {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(113, 144, 255);
+    padding: 6px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.different-text {
+    margin-top: 20px;
+    padding-right: 45px;
+    /* width: 25%; */
+    font-family: "Karla-SemiBold";
+}
+
+.different-text-style {
+    margin-top: 40px;
+}
+
+.h4 {
+    font-size: 30px;
+    font-family: "DMSerifDisplay-Regular";
+    margin-bottom: 20px;
+    margin-top: 100px;
+    color: white;
+    line-height: 45px;
+    font-size: 40px;
+    margin-left: 100px;
+    text-align: left;
+    width: 40%;
+}
+
+.blue-box-2nd {
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: #2d243e;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+
+.bottom-nav-link {
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.bottom-hr {
+    margin-right: 35px;
+    margin-left: 35px;
+    margin-bottom: 50px;
+}
+
+.footnavitem {
+    text-align: center;
+}
+
+.footer-nav-link {
+    margin-left: 15px;
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+    font-family: "Karla-variable";
+}
+
+.foot-nav {
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #2d243e;
+    text-align: center;
+    padding: 10px;
+    height: 6%;
+    color: rgb(173, 171, 171);
+}
